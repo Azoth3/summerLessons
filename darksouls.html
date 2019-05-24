@@ -10,7 +10,22 @@
 
 <body bgcolor="#E6E6FA">
 
-This is some text 
+  <h1>Text to Save:</h1>
+			First Name:<input id="inputTextToSave" cols="80" rows="25" type="text"></input><br>
+            Last Name:<input id="lastName" cols="80" rows="25"></input><br>
+			Address:<input id="address" cols="80" rows="25"></input><br>
+			City:<input id="city" cols="80" rows="25"></input><br>
+			State:<input id="state" cols="80" rows="25"></input><br>
+			Zip Code:<input id="zipCode" cols="80" rows="25"></input><br>
+            
+   
+        Filename to Save As:<br>
+        <input id="inputFileNameToSaveAs"></input><br>
+        <button onclick="saveTextAsFile()">Save Text to File</button><br>
+
+        Select a File to Load:<br>
+        <input type="file" id="fileToLoad"><br>
+        <button onclick="loadFileAsText()">Load Selected File</button><br>
 
 
 
